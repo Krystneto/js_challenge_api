@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const productsController = require('../controllers/productsController')
 
-router.route('/products')
+router.route('/products.json')
     .get(productsController.showProducts);
 
 
